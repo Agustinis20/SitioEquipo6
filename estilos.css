@@ -1,0 +1,219 @@
+.inicio, .inicio * {
+    box-sizing: border-box;
+    }
+.inicio {
+    background: #f5e4d7;
+    width: 1440px;
+    height: 1552px;
+    position: relative;
+    overflow: hidden;
+   }
+
+.footer {
+    position: absolute;
+    inset: 0;
+   }
+
+.rectangle-1 {
+    background: #73877b;
+    width: 1440px;
+    height: 106.55px;
+    position: absolute;
+    left: 0px;
+    top: 1445px;
+   }
+
+.foto-uade {
+    border-radius: 140.5px;
+    width: 312px;
+    height: 81.65px;
+    position: absolute;
+    left: 1146px;
+    top: 1457.62px;
+   }
+
+.integrantes {
+    width: 1136px;
+    height: 49.02px;
+    position: static;
+   }
+
+.tomas-marzio {
+    color: #000000;
+    text-align: center;
+    font: var(--footer, 800 25px 'Literata', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 51px;
+    top: 1476px;
+    width: 242px;
+    height: 46.02px;
+   }
+
+.federico-shaw {
+    color: #000000;
+    text-align: center;
+    font: var(--footer, 800 25px 'Literata', sans-serif);
+    text-align: center;
+    font: 800 25px 'Literata', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 332px;
+    top: 1476px;
+   }
+
+.gerardo-cervantes {
+    color: #000000;
+    text-align: center;
+    font: var(--footer, 800 25px 'Literata', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 567px;
+    top: 1475px;
+    width: 353px;
+    height: 46.02px;
+   }
+
+.agustin-bodas {
+    color: #000000;
+    text-align: center;
+    font: var(--footer, 800 25px 'Literata', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 902px;
+    top: 1473px;
+    width: 285px;
+    height: 44.53px;
+   }
+
+.rectangulo-main {
+    border-radius: 0px;
+    position: absolute;
+    left: 66px;
+    top: 686px;
+    overflow: visible;
+    width: 1308px;
+   }
+
+.numero-de-equipo-6-curso-450948-viernes-a-la-tarde-docente-litovicius-patricia-carina-materia-dise-o-web {
+    color: #ffffff;
+    text-align: left;
+    font: var(--texto, 400 80px 'Bahiana', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 315px;
+    top: 894px;
+    width: 810px;
+   }
+
+.datos-del-equipo {
+    color: #ffffff;
+    text-align: left;
+    font: 400 100px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 494px;
+    top: 718px;
+   }
+
+.imagenes {
+    position: absolute;
+    left: 81px;
+    top: 280px;
+    overflow: visible;
+   }
+
+
+.rectangulo-header {
+    background: #73877b;
+    width: 1441px;
+    height: 182px;
+    position: absolute;
+    left: 0px;
+    top: 36px;
+   }
+
+.navegadores {
+    width: 639px;
+    height: 58px;
+    position: static;
+   }
+
+.inicio2 {
+    color: #466060;
+    text-align: center;
+    font: 400 50px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 737px;
+    top: 66px;
+    width: 95px;
+   }
+
+.integrantes2 {
+    color: #000000;
+    text-align: center;
+    font: var(--subtitulo, 400 50px 'Bahiana', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 884px;
+    top: 66px;
+   }
+
+.sitio {
+    color: #000000;
+    text-align: center;
+    font: var(--subtitulo, 400 50px 'Bahiana', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 1281px;
+    top: 66px;
+    width: 95px;
+   }
+
+.proyecto {
+    color: #000000;
+    text-align: center;
+    font: var(--subtitulo, 400 50px 'Bahiana', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 1105px;
+    top: 66px;
+   }
+
+.logo {
+    border-radius: 123.5px;
+    border-style: solid;
+    border-color: #73877b;
+    border-width: 5px;
+    width: 159px;
+    height: 159px;
+    position: absolute;
+    left: 82px;
+    top: 45px;
+   }
+
+.titulo {
+    text-align: center;
+    position: absolute;
+    left: 276px;
+    top: 59px;
+    width: 382px;
+    height: 89px;
+    color: #466060;
+    font: 400 80px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+   }
+
+.subtitulo {
+    color: #ffffff;
+    text-align: center;
+    font: var(--subtitulo, 400 50px 'Bahiana', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 199px;
+    top: 148px;
+    width: 1123px;
+    height: 41px;
+   }
+
