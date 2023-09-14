@@ -116,13 +116,19 @@
     top: 718px;
    }
 
-.imagenes {
-    position: absolute;
-    left: 81px;
-    top: 280px;
-    overflow: visible;
-   }
-
+.imagen-botella-1 {
+    border-radius: 50px;
+    width: 555px;
+    height: 344px;
+    position: relative;
+    }
+    
+.imagen-botella-2 {
+    border-radius: 50px;
+    width: 555px;
+    height: 344px;
+    position: relative;
+    }
 
 .rectangulo-header {
     background: #73877b;
@@ -150,6 +156,10 @@
     width: 95px;
    }
 
+.inicio2:hover{
+    color: white;
+    }
+
 .integrantes2 {
     color: #000000;
     text-align: center;
@@ -159,6 +169,10 @@
     left: 884px;
     top: 66px;
    }
+
+.integrantes2:hover{
+    color: white;
+    }
 
 .sitio {
     color: #000000;
@@ -171,6 +185,10 @@
     width: 95px;
    }
 
+.sitio:hover{
+    color: white;
+    }
+
 .proyecto {
     color: #000000;
     text-align: center;
@@ -180,6 +198,10 @@
     left: 1105px;
     top: 66px;
    }
+
+.proyecto:hover{
+    color: white;
+    }   
 
 .logo {
     border-radius: 123.5px;
@@ -191,17 +213,22 @@
     position: absolute;
     left: 82px;
     top: 45px;
+    transition: all 0.4s;
    }
+
+.logo:hover{
+    transform: scale(1.1);
+    }
 
 .titulo {
     text-align: center;
     position: absolute;
-    left: 276px;
+    left: 236px;
     top: 59px;
-    width: 382px;
+    width: 500px;
     height: 89px;
     color: #466060;
-    font: 400 80px 'Bahiana', sans-serif;
+    font: 400 60px 'Bahiana', sans-serif;
     text-transform: uppercase;
    }
 
@@ -211,7 +238,7 @@
     font: var(--subtitulo, 400 50px 'Bahiana', sans-serif);
     text-transform: uppercase;
     position: absolute;
-    left: 199px;
+    left: 150px;
     top: 148px;
     width: 1123px;
     height: 41px;
