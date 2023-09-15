@@ -1,5 +1,6 @@
 .datos, .datos * {
    box-sizing: border-box;
+   zoom:90%;
    }
 .fondo {
   background: #323232;
@@ -7,7 +8,7 @@
    height: 1024px;
    position: relative;
    overflow: hidden;
-   zoom:90%;
+
   }
 
 .contactos-boton {
