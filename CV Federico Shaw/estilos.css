@@ -153,6 +153,7 @@
   justify-content: center}
 
 @font-face {
+   color: #ffffff;
    font-family: 'IM FELL Double Pica SC';
    src: url("Datos\IMFellDoublePicaSC-Regular") format("truetype");
    font-style: normal;
