@@ -1,0 +1,490 @@
+.datos-personales, .datos-personales * {
+  box-sizing: border-box;
+  }
+.datos-personales {
+  background: #e8f0ff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  }
+
+.dni {
+  color: #392759;
+  text-align: left;
+  font: 800 30px 'Outfit', sans-serif;
+  position: absolute;
+  left: 68px;
+  top: 852px;
+  letter-spacing: 10px;
+  }
+
+.foto {
+  border-radius: 30px;
+  width: 316px;
+  height: 408px;
+  position: absolute;
+  left: 67px;
+  top: 401px;
+  }
+
+.datos-personales2 {
+  position: absolute;
+  inset: 0;
+  }
+
+.rectangulo-informacion {
+  background: #6874e8;
+  width: 865px;
+  height: 493px;
+  position: absolute;
+  left: 507px;
+  top: 452px;
+  border-radius: 30px;
+  }
+
+.email {
+  color: #e8f0ff;
+  text-align: left;
+  font: var(--texto, 800 30px 'Roboto', sans-serif);
+  position: absolute;
+  left: 558px;
+  top: 883px;
+  letter-spacing: 10px;
+  }
+
+.telefono {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 693px;
+  top: 828px;
+  letter-spacing: 10px;
+  }
+
+.nacionalidad {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 671px;
+  top: 770px;
+  letter-spacing: 10px;
+  }
+
+.estado-civil {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 706px;
+  top: 712px;
+  letter-spacing: 10px;
+  }
+
+.edad {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 782px;
+  top: 654px;
+  letter-spacing: 10px;
+  }
+
+.nacimiento {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 648px;
+  top: 596px;
+  letter-spacing: 10px;
+  }
+
+.apellido {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 764px;
+  top: 538px;
+  letter-spacing: 10px;
+  }
+
+.nombre {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 755px;
+  top: 480px;
+  letter-spacing: 10px;
+  }
+
+.titulo {
+  color: #392759;
+  text-align: center;
+  font: var(--titulos, 900 50px 'Outfit', sans-serif);
+  position: absolute;
+  left: 545px;
+  top: 351px;
+  letter-spacing: 18px;
+  font-weight: bolder;
+  }
+
+.botones {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  }
+
+.competencia-boton {
+  width: 315px;
+  height: 114px;
+  position: static;
+  }
+
+.competencia-boton-presionado {
+  background: #f7accf;
+  border-radius: 100px;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 1058px;
+  top: 199px;
+  }
+
+.competencia-boton2 {
+  background: #392759;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 1058px;
+  top: 199px;
+  }
+
+.texto-boton {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 20px 'Outfit', sans-serif;
+  position: absolute;
+  left: 1123px;
+  top: 244px;
+  letter-spacing: 6.5px;
+  }
+
+.experiencia-laboral-boton {
+  width: 315px;
+  height: 114px;
+  position: static;
+  }
+
+.experiencia-laboral-boton-presionado {
+  background: #f7accf;
+  border-radius: 100px;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 728px;
+  top: 199px;
+  }
+
+.experiencia-laboral-boton2 {
+  background: #392759;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 728px;
+  top: 199px;
+  }
+
+.texto-boton2 {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 20px 'Outfit', sans-serif;
+  position: absolute;
+  left: 738px;
+  top: 244px;
+  letter-spacing: 6.5px;
+  }
+
+.estudios-boton {
+  width: 315px;
+  height: 114px;
+  position: static;
+  }
+
+.estudios-boton-presionado {
+  background: #f7accf;
+  border-radius: 100px;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 398px;
+  top: 199px;
+  }
+
+.estudios-boton2 {
+  background: #392759;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 398px;
+  top: 199px;
+  }
+
+.texto-boton3 {
+  color: #e8f0ff;
+  text-align: left;
+  font: var(--subtitulos, 800 20px 'Outfit', sans-serif);
+  position: absolute;
+  left: 495px;
+  top: 244px;
+  letter-spacing: 6.5px;
+  }
+
+.datos-personales-boton {
+  width: 315px;
+  height: 114px;
+  position: static;
+  }
+
+.datos-personales-boton-presionado {
+  background: #f7accf;
+  border-radius: 100px;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 68px;
+  top: 199px;
+  }
+
+.datos-personales-boton2 {
+  background: #392759;
+  width: 315px;
+  height: 114px;
+  position: absolute;
+  left: 68px;
+  top: 199px;
+  }
+
+.texto-boton4 {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 20px 'Outfit', sans-serif;
+  position: absolute;
+  left: 99px;
+  top: 244px;
+  letter-spacing: 6.5px;
+  }
+
+.titulo2 {
+  position: absolute;
+  inset: 0;
+  }
+
+.rectangulo-titulo {
+  background: #6874e8;
+  width: 1305px;
+  height: 110px;
+  position: absolute;
+  left: calc(50% - 653px);
+  top: calc(50% - 466px);
+  border-radius: 30px;
+  }
+
+.titulo3 {
+  color: #e8f0ff;
+  text-align: center;
+  font: var(--titulos, 900 50px 'Outfit', sans-serif);
+  position: absolute;
+  left: 391px;
+  top: 70px;
+  letter-spacing: 28px;
+  font-weight: bolder;
+  }
+
+.estudios, .estudios * {
+  box-sizing: border-box;
+  }
+.estudios {
+  background: #e8f0ff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  }
+
+.estudios2 {
+  position: absolute;
+  inset: 0;
+  }
+
+.licenciatura {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 25px/150% 'Roboto', sans-serif;
+  position: absolute;
+  left: 556px;
+  top: 767px;
+  width: 817px;
+  letter-spacing: 8px;
+  }
+
+.estudios-universitarios {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 538px;
+  top: 699px;
+  width: 734px;
+  letter-spacing: 8px;
+  }
+  
+.titulo-obtenido {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 25px/150% 'Roboto', sans-serif;
+  position: absolute;
+  left: 556px;
+  top: 552px;
+  width: 817px;
+  letter-spacing: 8px;
+  }
+
+.estudios-secundarios {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  left: 532px;
+  top: 484px;
+  width: 722px;
+  letter-spacing: 8px;
+  }
+
+.competencia, .competencia * {
+  box-sizing: border-box;
+  }
+.competencia {
+  background: #e8f0ff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  }   
+
+.competencia2 {
+  position: absolute;
+  inset: 0;
+  }
+
+.ingles {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  letter-spacing: 8px;
+  left: 551px;
+  top: 831px;
+  width: 777px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start}
+
+.figma {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  letter-spacing: 8px;
+  left: 880px;
+  top: 756px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start}
+
+.css {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  letter-spacing: 8px;
+  left: 812px;
+  top: 681px;
+  width: 255px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start}
+
+.html {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  letter-spacing: 8px;
+  left: 796px;
+  top: 606px;
+  width: 289px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start}
+
+.python {
+  color: #e8f0ff;
+  text-align: left;
+  font: 800 30px 'Roboto', sans-serif;
+  position: absolute;
+  letter-spacing: 8px;
+  left: 733px;
+  top: 531px;
+  width: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start}
+
+.experiencia-laboral, .experiencia-laboral * {
+    box-sizing: border-box;
+  }
+.experiencia-laboral {
+  background: #e8f0ff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  }
+
+.experiencia-laboral2 {
+  position: absolute;
+  inset: 0;
+  }
+
+.experiencia-laboral3 {
+  color: #e8f0ff;
+  text-align: center;
+  font: 800 50px 'Roboto', sans-serif;
+  position: absolute;
+  letter-spacing: 20px;
+  left: 701px;
+  top: 581px;
+  width: 478px;
+  display: flex;
+  align-items: center;
+  justify-content: center}
+
+.rectangulo-sombra {
+  background: #392759;
+  width: 367px;
+  height: 481px;
+  position: absolute;
+  left: 42px;
+  top: 364px;
+  filter: blur(50px);
+  }
+
+
+

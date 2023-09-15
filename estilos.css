@@ -9,11 +9,6 @@
     overflow: hidden;
    }
 
-.footer {
-    position: absolute;
-    inset: 0;
-   }
-
 .rectangle-1 {
     background: #73877b;
     width: 1440px;
@@ -26,17 +21,16 @@
 .foto-uade {
     border-radius: 140.5px;
     width: 312px;
-    height: 81.65px;
+    height: 180px;
     position: absolute;
     left: 1146px;
-    top: 1457.62px;
-   }
+    top: 1410px;
+    transition: all 0.4s;
+    }
 
-.integrantes {
-    width: 1136px;
-    height: 49.02px;
-    position: static;
-   }
+.foto-uade:hover{
+    transform: scale(1.1);
+    }
 
 .tomas-marzio {
     color: #000000;
@@ -86,16 +80,27 @@
     height: 44.53px;
    }
 
+.agustin-bodas2 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 80px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 162px;
+    top: 945px;
+    }
+
 .rectangulo-main {
-    border-radius: 0px;
+    border-radius: 30px;
     position: absolute;
     left: 66px;
     top: 686px;
-    overflow: visible;
     width: 1308px;
+    height: 672px;
+    background: #73877B;
    }
 
-.numero-de-equipo-6-curso-450948-viernes-a-la-tarde-docente-litovicius-patricia-carina-materia-dise-o-web {
+.texto-datos {
     color: #ffffff;
     text-align: left;
     font: var(--texto, 400 80px 'Bahiana', sans-serif);
@@ -108,26 +113,50 @@
 
 .datos-del-equipo {
     color: #ffffff;
-    text-align: left;
     font: 400 100px 'Bahiana', sans-serif;
     text-transform: uppercase;
     position: absolute;
     left: 494px;
-    top: 718px;
+    top: 670px;
    }
 
 .imagen-botella-1 {
     border-radius: 50px;
     width: 555px;
     height: 344px;
-    position: relative;
+    position: absolute;
+    left: 81px;
+    top: 280px;
+    transition: all 0.4s;
+    }
+
+.imagen-botella-1:hover{
+    transform: scale(1.05);
     }
     
 .imagen-botella-2 {
     border-radius: 50px;
     width: 555px;
     height: 344px;
-    position: relative;
+    position: absolute;
+    left: 803px;
+    top: 280px;
+    transition: all 0.4s;
+    }
+
+.imagen-botella-2:hover{
+    transform: scale(1.05);
+    }
+
+.flecha {
+    width: 125px;
+    height: 100px;
+    flex-shrink: 0;
+    stroke-width: 15px;
+    stroke: #466060;
+    left: 657px;
+    top: 400px;
+    position: absolute;
     }
 
 .rectangulo-header {
@@ -139,14 +168,8 @@
     top: 36px;
    }
 
-.navegadores {
-    width: 639px;
-    height: 58px;
-    position: static;
-   }
-
 .inicio2 {
-    color: #466060;
+    color: #000000;
     text-align: center;
     font: 400 50px 'Bahiana', sans-serif;
     text-transform: uppercase;
@@ -160,7 +183,7 @@
     color: white;
     }
 
-.integrantes2 {
+.integrantes {
     color: #000000;
     text-align: center;
     font: var(--subtitulo, 400 50px 'Bahiana', sans-serif);
@@ -170,7 +193,7 @@
     top: 66px;
    }
 
-.integrantes2:hover{
+.integrantes:hover{
     color: white;
     }
 
@@ -244,3 +267,144 @@
     height: 41px;
    }
 
+.gerardo-cervantes2 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 80px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 103px;
+    top: 1249px;
+    }
+
+.foto-3 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #466060;
+    border-width: 7px;
+    width: 196px;
+    height: 202px;
+    position: absolute;
+    left: 216px;
+    top: 1047px;
+    }
+
+.federico-shaw2 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 80px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 971px;
+    top: 945px;
+    }
+
+.foto-2 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #466060;
+    border-width: 7px;
+    width: 196px;
+    height: 193px;
+    position: absolute;
+    left: 1027px;
+    top: 733px;
+    }
+
+.agustin-bodas2 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 80px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 162px;
+    top: 945px;
+    }
+
+.foto-1 {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #466060;
+    border-width: 7px;
+    width: 196.17px;
+    height: 200px;
+    position: absolute;
+    left: 216px;
+    top: 733px;
+    transition: all 0.4s;
+    }
+
+.foto-1:hover{
+    transform: scale(1.1)
+    }   
+
+.tomas-marzio2 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 80px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 985px;
+    top: 1249px;
+    }
+
+.imagen-main {
+    border-radius: 138px;
+    width: 276px;
+    height: 292px;
+    position: absolute;
+    left: 582px;
+    top: 891px;
+    }
+
+.integrantes2 {
+    color: #ffffff;
+    font: 400 100px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 551px;
+    top: 670px;
+    }
+
+.participantes, .participantes * {
+    box-sizing: border-box;
+    }
+.participantes {
+    background: #f5e4d7;
+    width: 1440px;
+    height: 1552px;
+    position: relative;
+    overflow: hidden;
+    }
+
+.proyecto3 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 100px 'Bahiana', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 597px;
+    top: 718px;
+    }
+
+.proyecto2, .proyecto2 * {
+    box-sizing: border-box;
+    }
+.proyecto2 {
+    background: #f5e4d7;
+    width: 1440px;
+    height: 1552px;
+    position: relative;
+    overflow: hidden;
+    }
+
+.texto-proyecto {
+    color: #ffffff;
+    text-align: left;
+    font: var(--texto, 400 80px 'Bahiana', sans-serif);
+    text-transform: uppercase;
+    position: absolute;
+    left: 315px;
+    top: 894px;
+    width: 810px;
+    }
