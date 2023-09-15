@@ -1,0 +1,252 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1470px;
+  height: 1028px;
+  object-fit: cover;
+}
+.experiencia-laboral4 {
+  position: absolute;
+  top: 278px;
+  left: 514px;
+  font-weight: 500;
+  display: inline-block;
+  width: 531px;
+  height: 56px;
+  -webkit-text-stroke: 1px #000;
+}
+.rectangle-icon18,
+.rectangulo-header-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 1444px;
+  height: 129px;
+}
+.rectangle-icon18 {
+  border-radius: var(--br-mini);
+  width: 252px;
+  height: 59px;
+}
+.estudios5 {
+  position: absolute;
+  top: 12.42px;
+  left: 66.6px;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 115.2px;
+  height: 26.39px;
+}
+.rectangle-parent15 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 35px;
+  left: 596px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.experiencia-laboral-inner.animate,
+.rectangle-parent15.animate,
+.rectangle-parent16.animate,
+.rectangle-parent18.animate,
+.rectangle-parent19.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.informacin-personal6 {
+  position: absolute;
+  top: 3px;
+  left: 29px;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 195px;
+  height: 47px;
+}
+.rectangle-parent16 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 32px;
+  left: 317px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.rectangle-icon21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 252px;
+  height: 55.58px;
+}
+.experiencia3 {
+  margin: 0;
+}
+.experiencia-laboral5 {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 196.2px;
+  height: 59px;
+}
+.rectangle-parent18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 32px;
+  left: 891px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.contacto3 {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 196.2px;
+  height: 52.79px;
+}
+.rectangle-parent19 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 35px;
+  left: 1173px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.inicio4 {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 219.6px;
+  height: 52.79px;
+}
+.rectangle-parent20 {
+  position: absolute;
+  top: 35px;
+  left: 38px;
+  width: 252px;
+  height: 70.79px;
+  cursor: pointer;
+}
+.experiencia-laboral-inner,
+.rectangulo-header-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1444px;
+  height: 129px;
+}
+.experiencia-laboral-inner {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  opacity: 1;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-32xl);
+  background-color: var(--color-gray);
+  width: 757px;
+  height: 169px;
+}
+.actualmente-no-poseo {
+  margin: 0;
+  padding-left: var(--padding-21xl);
+}
+.f2 {
+  position: absolute;
+  top: 36px;
+  left: 22px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #d9d9d9;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 709px;
+  height: 133px;
+}
+.rectangle-parent21 {
+  position: absolute;
+  top: 356px;
+  left: 326px;
+  width: 757px;
+  height: 169px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.experiencia-laboral3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .experiencia-laboral3 {
+    opacity: 1;
+  }
+  .experiencia-laboral3.animate {
+    animation: 1s ease 0s 1 normal forwards scale-up;
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}

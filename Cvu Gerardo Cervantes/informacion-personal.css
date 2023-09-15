@@ -1,0 +1,240 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.icon1,
+.informacion-personal-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1470px;
+  height: 1028px;
+  object-fit: cover;
+}
+.informacion-personal-child {
+  top: 369px;
+  left: 184px;
+  border-radius: 78.5px;
+  width: 267px;
+  height: 283px;
+}
+.rectangle-icon6,
+.rectangulo-header-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 1444px;
+  height: 129px;
+}
+.rectangle-icon6 {
+  border-radius: var(--br-mini);
+  width: 252px;
+  height: 59px;
+}
+.estudios1 {
+  position: absolute;
+  top: 12.42px;
+  left: 66.6px;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 115.2px;
+  height: 26.39px;
+}
+.rectangle-parent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 35px;
+  left: 596px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.informacion-personal-inner.animate,
+.rectangle-parent2.animate,
+.rectangle-parent3.animate,
+.rectangle-parent5.animate,
+.rectangle-parent6.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.informacin-personal2 {
+  position: absolute;
+  top: 3px;
+  left: 29px;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 195px;
+  height: 47px;
+}
+.rectangle-parent3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 32px;
+  left: 317px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.rectangle-icon9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 252px;
+  height: 55.58px;
+}
+.experiencia-laboral1 {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 196.2px;
+  height: 59px;
+}
+.rectangle-parent5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 32px;
+  left: 891px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.contacto1 {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 196.2px;
+  height: 52.79px;
+}
+.rectangle-parent6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 35px;
+  left: 1173px;
+  width: 252px;
+  height: 59px;
+  opacity: 1;
+}
+.inicio2 {
+  position: absolute;
+  top: 3px;
+  left: 16px;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 219.6px;
+  height: 52.79px;
+}
+.group-div {
+  position: absolute;
+  top: 35px;
+  left: 38px;
+  width: 252px;
+  height: 59px;
+  cursor: pointer;
+}
+.informacion-personal-inner,
+.rectangulo-header-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1444px;
+  height: 129px;
+}
+.informacion-personal-inner {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  opacity: 1;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-32xl);
+  background-color: var(--color-gray);
+  width: 757px;
+  height: 445px;
+}
+.nombre-gerardo-cervantes1 {
+  margin-bottom: 0;
+}
+.nombre-gerardo-cervantes {
+  margin: 0;
+  padding-left: var(--padding-21xl);
+}
+.blank-line {
+  margin: 0;
+}
+.f {
+  position: absolute;
+  top: 64px;
+  left: 30px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #d9d9d9;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 709px;
+  height: 402px;
+}
+.informacion-personal-inner1,
+.rectangle-parent7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 757px;
+  height: 466px;
+}
+.informacion-personal-inner1 {
+  top: 288px;
+  left: 564px;
+}
+.informacion-personal {
+  text-decoration: none;
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
