@@ -1,0 +1,160 @@
+.datos, .datos * {
+   box-sizing: border-box;
+   }
+.fondo {
+  background: #323232;
+   width: 1440px;
+   height: 1024px;
+   position: relative;
+   overflow: hidden;
+  }
+
+.contactos-boton {
+  background: #0D7377;
+   border-radius: 20px;
+   width: 293px;
+   height: 149px;
+   position: absolute;
+   left: 20px;
+  top: 210px;
+  }
+
+.contactos-texto {
+  color: #ffffff;
+   text-align: center;
+   font: 400 40px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+   position: absolute;
+   left: 51.08px;
+  top: 258.91px;
+   width: 231.74px;
+   display: flex;
+  align-items: center;
+  justify-content: center}
+
+.conocimientos-fondo {
+  background: #0D7377;
+   border-radius: 20px;
+   width: 293px;
+   height: 149px;
+   position: absolute;
+   left: 768px;
+  top: 210px;
+  }
+
+.conocimientos-texto {
+  color: #ffffff;
+   text-align: center;
+   font: 400 40px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+   position: absolute;
+   left: 783.09px;
+  top: 240.91px;
+   width: 262.81px;
+   height: 87.18px;
+   display: flex;
+  align-items: center;
+  justify-content: center}
+
+.experiencia-fondo {
+  background: #0D7377;
+   border-radius: 20px;
+   width: 293px;
+   height: 149px;
+   position: absolute;
+   left: 1136px;
+  top: 210px;
+  }
+
+.experiencia-texto {
+  color: #ffffff;
+   text-align: center;
+   font: 400 40px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+   position: absolute;
+   left: 1151.09px;
+  top: 240.91px;
+   width: 262.81px;
+   height: 87.18px;
+   display: flex;
+  align-items: center;
+  justify-content: center}
+
+.datos-personales {
+   background: #0D7377;
+   border-radius: 20px;
+   width: 293px;
+   height: 149px;
+   position: absolute;
+   left: 388px;
+  top: 210px;
+  }
+
+.datos-personales-texto {
+  color: #ffffff;
+   text-align: center;
+   font: 400 40px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+   position: absolute;
+   left: 419.08px;
+  top: 240.91px;
+   width: 231.74px;
+   height: 87.18px;
+   display: flex;
+  align-items: center;
+  justify-content: center}
+
+.texto-fondo {
+  background: #0d7377;
+   border-radius: 20px;
+   width: 872px;
+   height: 435px;
+   position: absolute;
+   left: 521px;
+  top: 479px;
+  }
+
+.texto {
+  color: #ffffff;
+   text-align: left;
+   font: 400 45px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+   position: absolute;
+   left: 613px;
+  top: 556px;
+   width: 690px;
+   height: 268px;
+  }
+
+.foto{
+  border-radius: 100px;
+   width: 351px;
+   height: 348px;
+   position: absolute;
+   left: 37px;
+  top: 479px;
+  }
+
+.fondo-titulo {
+  background: #0d7377;
+   width: 1440px;
+   height: 164px;
+   position: absolute;
+   left: 0px;
+  top: 0px;
+  }
+
+.texto-titulo {
+  color: #ffffff;
+   text-align: center;
+   font: 400 70px 'IM FELL Double Pica SC', 'IM FELL Double Pica SC';
+   position: absolute;
+   left: 427px;
+  top: 41px;
+   width: 587px;
+   height: 82px;
+   display: flex;
+  align-items: center;
+  justify-content: center}
+
+@font-face {
+   font-family: 'IM FELL Double Pica SC';
+   src: url("Datos\IMFellDoublePicaSC-Regular") format("truetype");
+   font-style: normal;
+   font-weight: normal;
+}
