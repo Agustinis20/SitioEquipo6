@@ -45,7 +45,7 @@ ul{
   margin: 10px;
   border-radius: 30px;
   transition: all 0.4s;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -72,11 +72,11 @@ main{
   background: #6874E8;
   color: #E8F0FF;
   text-align: center;
-  font: 800 20px 'Roboto', sans-serif;
+  font: 400 20px 'Roboto', sans-serif;
   padding: 10px;
   margin: 20px;
   border-radius: 30px;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   line-height: 150%;
 }
 
@@ -84,7 +84,7 @@ label, input{
   display: none;
 }
 
-@media (max-width: 700px){
+@media (max-width: 768px){
 
   ul{
     flex-direction: column-reverse;
