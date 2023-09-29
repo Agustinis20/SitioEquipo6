@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inconsolata: Inconsolata;
+  --font-inter: Inter;
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: rgba(0, 0, 0, 0.5);
+
+  /* Paddings */
+  --padding-lgi: 19px;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-32xl: 51px;
+  --br-31xl: 50px;
+}

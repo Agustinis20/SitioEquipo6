@@ -1,0 +1,217 @@
+.icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 810px;
+  object-fit: cover;
+}
+.rectangle-icon10,
+.rectangulo-header-icon2 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-31xl);
+  width: 360px;
+  height: 289px;
+}
+.rectangle-icon10 {
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 254px;
+  height: 44px;
+}
+.estudios3 {
+  position: absolute;
+  top: 13.42px;
+  left: 34.01px;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 181.93px;
+  height: 19.39px;
+}
+.rectangle-parent7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 116px;
+  left: 55px;
+  width: 254px;
+  height: 44px;
+}
+.informacin-personal2 {
+  position: absolute;
+  top: 2.24px;
+  left: 29.23px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 196.55px;
+  height: 35.05px;
+}
+.rectangle-parent8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 62px;
+  left: 57px;
+  width: 254px;
+  height: 44px;
+}
+.rectangle-icon12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 254px;
+  height: 35.18px;
+}
+.contacto2 {
+  position: absolute;
+  top: 12.52px;
+  left: 30.57px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inconsolata);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 197.76px;
+  height: 31.48px;
+}
+.rectangle-parent9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 224px;
+  left: 53px;
+  width: 254px;
+  height: 44px;
+}
+.rectangle-icon13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 254px;
+  height: 36.67px;
+}
+.inicio2 {
+  position: absolute;
+  top: 11.19px;
+  left: 16.13px;
+  font-weight: 500;
+  display: inline-block;
+  width: 221.34px;
+  height: 32.81px;
+}
+.rectangle-parent10 {
+  position: absolute;
+  top: 15px;
+  left: 55px;
+  width: 254px;
+  height: 44px;
+  cursor: pointer;
+}
+.parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 362px;
+  height: 810px;
+}
+.informacion-personal-celular-child {
+  position: absolute;
+  top: 361px;
+  left: 105px;
+  border-radius: 78.5px;
+  width: 149px;
+  height: 145px;
+  object-fit: cover;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-32xl);
+  background-color: var(--color-gray);
+  width: 281px;
+  height: 222.5px;
+}
+.nombre-gerardo-cervantes1 {
+  margin-bottom: 0;
+}
+.nombre-gerardo-cervantes {
+  margin: 0;
+  padding-left: var(--padding-lgi);
+}
+.blank-line4 {
+  margin: 0;
+}
+.f2 {
+  position: absolute;
+  top: 32px;
+  left: 11.14px;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #d9d9d9;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 263.18px;
+  height: 201px;
+}
+.informacion-personal-celular-inner,
+.rectangle-parent11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 281px;
+  height: 233px;
+}
+.informacion-personal-celular-inner {
+  top: 535px;
+  left: 42px;
+  text-align: left;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.experiencia-laboral3 {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  display: inline-block;
+  width: 226.4px;
+  height: 43.32px;
+}
+.rectangle-parent12 {
+  position: absolute;
+  top: 170px;
+  left: 53px;
+  width: 254px;
+  height: 56.32px;
+  cursor: pointer;
+  font-size: var(--font-size-3xs);
+}
+.informacion-personal-celular {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inconsolata);
+}

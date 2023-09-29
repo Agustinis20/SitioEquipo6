@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="experiencia-laboral-celular">
+      <img class="icon" alt="" src="./public/123-2@2x.png" />
+
+      <div class="experiencia-laboral">Experiencia laboral</div>
+      <div class="rectangulo-header-parent">
+        <img
+          class="rectangulo-header-icon"
+          alt=""
+          src="./public/rectangulo-header.svg"
+        />
+
+        <button class="rectangle-parent" autofocus="{true}" id="groupButton">
+          <img class="rectangle-icon" alt="" src="./public/rectangle.svg" />
+
+          <div class="estudios">Estudios</div>
+        </button>
+        <button class="rectangle-group" autofocus="{true}" id="groupButton1">
+          <img class="rectangle-icon" alt="" src="./public/rectangle.svg" />
+
+          <div class="informacin-personal">Información Personal</div>
+        </button>
+        <button
+          class="rectangle-container"
+          autofocus="{true}"
+          id="groupButton2"
+        >
+          <img class="rectangle-icon2" alt="" src="./public/rectangle1.svg" />
+
+          <div class="contacto">Contacto</div>
+        </button>
+        <div class="group-div" id="groupContainer">
+          <img class="rectangle-icon3" alt="" src="./public/rectangle2.svg" />
+
+          <div class="inicio">Inicio</div>
+        </div>
+      </div>
+      <div class="rectangle-parent1">
+        <div class="group-child"></div>
+        <div class="f">
+          <ul class="actualmente-no-poseo">
+            Actualmente no poseo con Experiencia Laboral
+          </ul>
+        </div>
+      </div>
+      <div class="rectangle-parent2" id="groupContainer3">
+        <img class="rectangle-icon" alt="" src="./public/rectangle.svg" />
+
+        <div class="experiencia-laboral1">Experiencia Laboral</div>
+      </div>
+    </div>
+
+    <script>
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./estudios-celular.html";
+        });
+      }
+      
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = "./informacion-personal-celular.html";
+        });
+      }
+      
+      var groupButton2 = document.getElementById("groupButton2");
+      if (groupButton2) {
+        groupButton2.addEventListener("click", function (e) {
+          window.location.href = "./contacto-celular.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./inicio-celular.html";
+        });
+      }
+      
+      var groupContainer3 = document.getElementById("groupContainer3");
+      if (groupContainer3) {
+        groupContainer3.addEventListener("click", function (e) {
+          window.location.href = "./contacto-celular.html";
+        });
+      }
+      </script>
+  </body>
+</html>
