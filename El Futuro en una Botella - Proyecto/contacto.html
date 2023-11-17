@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@1,7..72,200&family=Outfit:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>El Futuro en una Botella</title>
+    <style>
+    
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+    
+        input, textarea {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          border: none;
+          border-bottom: 2px solid #466060;
+          margin-bottom: 15px;
+          outline: none; 
+          color: white;
+          font-size: 16px;
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: white;
+        }
+    
+        button {
+          padding: 15px;
+          font-size: 16px;
+          background-color: #466060;
+          color: white;
+          border: none;
+          cursor: pointer;
+          border-radius: 10px;
+        }
+    
+        button:hover {
+          background-color: #607e7e;
+        }
+
+        .outputcss {
+            padding: 2%;
+            margin: 2%;
+            text-align: center;
+        }
+
+        #error {
+            color: black;
+            padding: 2%;
+            margin: 2%;
+            text-align: center;
+        }
+    
+      </style>
+</head>
+<body>
+    <header>
+        <section class="logo-titulo">
+            <a href="index.html"><img class="logo" src="Imagenes\logo.jpg"/></a> 
+            <div class="titulo">el futuro en una botella</div>
+        </section> 
+        <div class="eslogan">"CONTRUYE EL FUTURO, UNA BOTELLA A LA VEZ"</div>
+        <nav>               
+            <ul>
+                <li><a href="index.html"><div>Inicio</div></a></li>
+                <li><a href="proyecto.html"><div>Proyecto</div></a></li>
+                <li><a href="premios.html"><div>Premios</div></a></li>
+                <li><a href="contacto.html"><div>Contacto</div></a></li>
+                <li><a href="conocenos.html"><div>Conocenos</div></a></li>
+            </ul>     
+        </nav>
+    </header>
+    <div class="banner-contacto">
+        <h1>¡Contactános!</h1>
+        <div>Nos encantaría mejorar el medio ambiente con la ayuda de todos.<br>Si tienes alguna pregunta o sugerencia, no olvides contactarnos, estamos aquí para ayudarlos a ustedes y a nuestro mundo</div>
+    </div>
+    <main>
+        <form class="usuario">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre aquí" required><br>
+            <label for="correo">Correo</label>
+            <input type="text" id="correo" placeholder="Escribe tu correo aquí" required><br>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea><br>
+            <button type="button" onclick="submitForm()">Enviar</button>
+            <div id="error"></div>
+            <div class="outputcss" id="output"></div>
+        </form>
+    </main>
+    <footer>
+        <div class="integrantes-footer">
+            <div>Tomas Marzio</div>
+            <div>Federico Shaw</div>
+            <div>Gerardo Cervantes</div>
+            <div>Agustín Bodas</div>
+        </div>
+        <div class="imagen-footer">
+            <a href="https://www.uade.edu.ar/" target="_blank"><img class="foto-uade" src="Imagenes\foto-uade.jpg"/></a>
+        </div>
+    </footer>
+    <script src="programa.js"></script>
+</body>
+</html>

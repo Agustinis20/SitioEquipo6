@@ -1,0 +1,356 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F5E4D7;
+}
+
+header{
+    display: flex;
+    background: #73877B;
+    font: 400 40px 'Bahiana', sans-serif;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.4s;
+    border: 5px solid #466060;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a:hover{
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    font-size: 3rem;
+    margin: 20px;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 4.5rem;
+    color: white;
+    -webkit-text-stroke: 2px #466060;
+}
+
+.eslogan{
+    font-size: 3rem;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo-titulo{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-height: 150px;
+}
+
+section{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-weight: 200;
+    padding: 10px;
+    font-size: 50px;
+}
+
+h2{
+    font-weight: 200;
+    padding: 10px;
+    margin: 10px;
+    color: #466060;
+}
+
+.contenedor {
+    color: white;
+    font: 400 2.5vw 'Bahiana', sans-serif;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+}
+
+.contenedor h1{
+    font-size: 3vw;
+}
+
+.left-half,.right-half,.left-half-2{
+    flex: 1;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.left-half {
+    background-image: url('Imagenes\\index_1.png');
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.left-half-2 {
+    background-image: url('Imagenes\\index_2.png');
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.right-half {
+    background: #73877B;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.contenedor > * {
+    padding: 20px;
+}
+
+.contenedor-2{
+    flex: 1;
+    background: #F5E4D7;
+    color: #73877B;
+    font: 400 3vw 'Bahiana', sans-serif;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 30px;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 60%;
+}
+
+.contenedor-2 h1{
+    font-size: 4vw
+}
+
+.contenedor-3{
+    background: #F5E4D7;
+    color: black;
+    font: 400 40px 'Bahiana', sans-serif;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-3 h1{
+    font-size: 5vw;
+    padding: 1%;
+    margin: 1%;
+}
+
+.contenedor-4{
+    background-color: #73877B;
+    color: white;
+    font: 400 3.5vw 'Bahiana', sans-serif;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contenedor-imagen{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex: 1;
+    max-width: 40%;
+}
+
+.contenedor-entregas{
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.fondo-verde{
+    background: #8EC584;
+    width: 100%;
+}
+
+.imagen-auto-width{
+    width: auto;
+    height: 100%;
+}
+
+.fondo-azul{
+    background: #1070AE;
+    width: 100%;
+}
+
+.imagen-full-width{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-index,.banner-proyecto,.banner-premios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 544px;
+}
+
+.banner-index{
+    background-image: url("Imagenes\\banner-index.png");
+}
+
+.banner-proyecto{
+    background-image: url("Imagenes\\banner-proyecto.png");
+}
+
+.banner-premios{
+    background-image: url("Imagenes\\banner-premios.png");
+}
+
+.banner-contacto{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 3%;
+    height: auto;
+    background-color: #73877B;
+    color: white;
+    font: 400 3.5vw 'Bahiana', sans-serif;
+    text-align: center;
+}
+
+.container-banner{
+    background: #D9D9D9;
+    border-radius: 40px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 400 40px 'Bahiana', sans-serif;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.container-banner h1{
+    font: 400 60px 'Bahiana', sans-serif;
+    padding: 0px;
+}
+
+footer{
+    display: flex;
+    background: #73877B;
+    align-items: center;
+    font: 600 25px 'Literata', sans-serif;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.integrantes-footer {
+    flex-basis: auto;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+footer div{
+    margin: 10px;
+}
+
+.foto-uade{
+    max-width: 500px;
+    max-height: 200px;
+    transition: all 0.4s;
+}
+
+.foto-uade:hover{
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.integrantes-main {
+    flex: 1; 
+    text-align: center;
+}
+
+.usuario{
+    background-color: #73877B;
+    color: white;
+    font: 400 2.5vw 'Abel', sans-serif;
+    margin: 5%;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px){
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        text-align: center;
+        align-items: center;
+    }
+
+    .integrantes-main {
+        width: 5%;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .nombres{
+        font-size: 2rem;
+    }
+
+}

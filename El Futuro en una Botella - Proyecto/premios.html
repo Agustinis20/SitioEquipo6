@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@1,7..72,200&family=Outfit:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>El Futuro en una Botella</title>
+    <style>
+    
+        label {
+          display: block;
+          margin: 5px;
+          padding: 5px;
+          justify-content: left;
+          font: 400 2.5vw 'Abel', sans-serif;
+        }
+    
+        input[type="text"], input[type="tel"], select {
+            background-color: #73877B;
+            color: white; 
+            padding: 5px;
+            margin: 5px;
+            border: none; 
+            border-radius: 3px;
+            border-bottom: 2px solid #466060;
+            width: 70%;
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: white; 
+        }
+    
+        button {
+          padding: 15px;
+          font-size: 16px;
+          background-color: #466060;
+          color: white;
+          border: none;
+          cursor: pointer;
+          border-radius: 10px;
+        }
+    
+        button:hover {
+          background-color: #607e7e;
+        }
+
+        .outputcss {
+            padding: 2%;
+            margin: 2%;
+            text-align: center;
+        }
+
+        #error {
+            color: black;
+            padding: 2%;
+            margin: 2%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <section class="logo-titulo">
+            <a href="index.html"><img class="logo" src="Imagenes\logo.jpg"/></a> 
+            <div class="titulo">el futuro en una botella</div>
+        </section> 
+        <div class="eslogan">"CONTRUYE EL FUTURO, UNA BOTELLA A LA VEZ"</div>
+        <nav>               
+            <ul>
+                <li><a href="index.html"><div>Inicio</div></a></li>
+                <li><a href="proyecto.html"><div>Proyecto</div></a></li>
+                <li><a href="premios.html"><div>Premios</div></a></li>
+                <li><a href="contacto.html"><div>Contacto</div></a></li>
+                <li><a href="conocenos.html"><div>Conocenos</div></a></li>
+            </ul>     
+        </nav>
+    </header>
+    <div class="banner-premios">
+        <div class="container-banner">
+            <h1>¡GANÁ PREMIOS MIENTRAS AYUDÁS AL PLANETA!</h1>
+            <div>ENTREGÁ LAS BOTELLAS EN LOS PUNTOS VERDES PARA CONSEGUIR JUGUETES A TU ELECCIÓN</div>
+        </div>
+    </div>
+    <main>
+        <div class="contenedor-entregas">
+            <div class="contenedor-2">
+                <h1>¿Donde entregarlas?</h1>
+                <div>Las Botellas se pueden entregar en los puntos verdes con atención de martes a viernes de 14 a 19, y sábados de 10 a 18. Además, se pueden entregar en el Punto Verde del Ministerio de Educación en el Barrio 31, en el Palacio Lezama, en la planta de A Todo Reciclaje (ATR) en el Barrio 31, en los clubes Boca Juniors y Racing Club, y en los Puntos que están ubicados en 14 mercados Eneldo y en 5 supermercados Carrefour</div>
+            </div>
+            <div class="contenedor-imagen">
+                <img class="imagen-full-width" src="Imagenes\botella-entrega.png" alt="Imagen de Botellas">
+            </div>
+        </div>
+        <div class="contenedor-3">
+            <img class="imagen-full-width" src="Imagenes\imagen-juguetes.png" alt="Imagen de Juguetes">
+            <div class="contenedor-4">
+                <h1>¡GANÁ Juguetes!</h1>
+                <div>ENTREGA LAS BOTELLAS PARA EN LOS PUNTOS VERDES PARA GANAR JUGUETES A TU ELECCIÓN</div>
+            </div>
+        </div>
+        <div class="contenedor-4">
+            <h1>¡Cuida el Planeta desde Tu Hogar!</h1>
+            <div>Entrega de Botellas de Plástico para Fomentar la Reciclabilidad y Proteger el Medio Ambiente</div>
+            <form id="userInfoForm">
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" id="domicilio" name="domicilio" placeholder="Escribe tu domicilio aquí"required><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="Escriba un número de 10 dígitos" required><br>
+                <label for="options">Selecciones cuantas botellas quiere entregar:</label>
+                <select id="options" name="options" required>
+                    <option value="option1">1-5</option>
+                    <option value="option2">6-10</option>
+                    <option value="option3">11-15</option>
+                </select><br>
+                <button type="button" onclick="submitForm()">Enviar</button>
+                <div id="error"></div>
+                <div class="outputcss" id="output"></div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="integrantes-footer">
+            <div>Tomas Marzio</div>
+            <div>Federico Shaw</div>
+            <div>Gerardo Cervantes</div>
+            <div>Agustín Bodas</div>
+        </div>
+        <div class="imagen-footer">
+            <a href="https://www.uade.edu.ar/" target="_blank"><img class="foto-uade" src="Imagenes\foto-uade.jpg"/></a>
+        </div>
+    </footer>
+    <script src="programapremios.js"></script>
+</body>
+</html>

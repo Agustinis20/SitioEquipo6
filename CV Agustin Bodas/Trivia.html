@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>CV Agustin Bodas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <style>
+            #pregunta {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            }
+            #opciones {
+            display: flex;
+            justify-content: center;
+            }
+            .option {
+            margin: 0 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #392759;
+            }
+            .option:hover {
+            background-color: #dddddd;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="titulo">Agustín Bodas</div>
+            <nav>
+              <ul>
+                <li><a href="Trivia.html"><div class="botones">Trivia</div></a></li>
+                <li><a href="Competencia.html"><div class="botones">Competencia</div></a></li>
+                <li><a href="Experiencia Laboral.html"><div class="botones">Experiencia Laboral</div></a></li>
+                <li><a href="Estudios.html"><div class="botones">Estudios</div></a></li>
+                <li><a href="index.html"><div class="botones">Datos Personales</div></a></li>
+              </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Juego de Preguntas</h1>
+            <div id="pregunta"></div>
+            <div id="opciones"></div>
+        </main>
+        <script src="programa.js"></script>
+    </body>
+</html>

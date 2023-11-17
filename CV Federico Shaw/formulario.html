@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Federico Shaw</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=IM+Fell+Double+Pica+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="titulo" >
+    CV Federico Shaw </div>
+  <nav>
+    <ul>
+      <li><a href="Conocimientos.html"><div class="boton">Conocimientos</div></a></li>
+      <li><a href="Experiencia.html"><div class="boton">Experiencia</div></a></li>
+    </ul>
+    <ul>
+      <li><a href="Contacto.html"><div class="boton">Contacto</div></a></li>
+      <li><a href="index.html"><div class="boton">Datos Personales</div></a></li>
+      <li><a href="formulario.html"><div class="boton" style="background-color:#17e0e7">Formulario</div></a></li>
+    </ul>
+  </nav>
+</header>  
+     
+  <main>
+    <div class="texto">
+    <h1>Formulario de Contacto</h1>
+
+    <form id="contactForm">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required><br><br>
+      
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" required><br><br>
+  
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" rows="4" cols="35" required></textarea><br><br>
+  
+      <button type="button" id="enviarBtn">Enviar</button>
+    </form>
+  
+    <div id="mensajeRespuesta" style="display: none;"></div>
+</div>              
+<script src="codigo.js"></script>
+  </main>
+
+</body>
+</html>
