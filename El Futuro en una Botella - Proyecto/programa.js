@@ -4,10 +4,15 @@ function submitForm() {
     var mensaje = document.getElementById('mensaje').value;
     var output = document.getElementById('output');
     var errorDiv = document.getElementById('error');
-    if (!isValidEmail(correo)) {
+
+    // Chequear si el nombre o mensaje esta vacio
+    if (nombre.trim() === '' || mensaje.trim() === '') {
+        errorDiv.innerHTML = 'Por favor complete todos los campos';
+        output.innerHTML = '';
+    } else if (!isValidEmail(correo)) {
         errorDiv.innerHTML = 'Por favor ingrese una dirección de correo válida';
         output.innerHTML = ''; 
-      } else {
+    } else {
         errorDiv.innerHTML = ''; 
         output.innerHTML = '<p>Muchas gracias por tu cooperación ' + nombre + '!</p>';
     }

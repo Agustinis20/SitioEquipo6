@@ -5,13 +5,20 @@ function submitForm() {
     var output = document.getElementById('output');
     var errorDiv = document.getElementById('error');
 
-    // Validación de número de teléfono
-    var phoneRegex = /^\d{10}$/;
-    if (!phoneRegex.test(telefono)) {
+    if (domicilio.trim() === '') {
+        errorDiv.innerHTML = 'Por favor complete todos los campos';
+        output.innerHTML = '';
+    } else if (!isValidPhone(telefono)) {
         errorDiv.innerHTML = 'Ingrese un número de teléfono de 10 dígitos';
         output.innerHTML = ''; 
-        } else {
+    } else {
         errorDiv.innerHTML = ''; 
-        output.innerHTML = 'Apreciamos tu colaboración! Estaremos retirando tus botellas lo más pronto que podamos!';
+        output.innerHTML = '¡Apreciamos tu colaboración! ¡Estaremos retirando tus botellas lo más pronto que podamos!';
     }
+}
+
+// Validación de número de teléfono
+function isValidPhone(telefono) {
+    var phoneRegex = /^\d{10}$/;
+    return phoneRegex.test(telefono);
 }
