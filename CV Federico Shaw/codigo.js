@@ -9,7 +9,7 @@ document.getElementById('enviarBtn').addEventListener('click', function() {
   
   var mensajeRespuesta = document.getElementById('mensajeRespuesta');
   mensajeRespuesta.style.display = 'block';
-  mensajeRespuesta.innerHTML = 'Muchas gracias ' + nombre + ',cuando la pala me llame te contacare.';
+  mensajeRespuesta.innerHTML = 'Muchas gracias ' + nombre + ',cuando la pala me llame te contactare.';
 });
 
 
